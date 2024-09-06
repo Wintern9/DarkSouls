@@ -83,4 +83,9 @@ public class Player_Movement : MonoBehaviour
             _isGrounded = value;
         }
     }
+
+    public bool GetGround()
+    {
+        return _isGrounded;
+    }
 }
